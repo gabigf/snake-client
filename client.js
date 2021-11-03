@@ -22,4 +22,4 @@ const connect = () => {
 
 console.log('Connecting...');
 
-module.exports = connect;
+module.exports = { connect };
