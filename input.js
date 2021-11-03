@@ -19,6 +19,8 @@ const setupInput = conn => {
 			connection.write('Move: down');
 		} else if (input === 'a') {
 			connection.write('Move: left');
+		} else if (input === 'p') {
+			connection.write('Say: big snek');
 		}
 	};
 
