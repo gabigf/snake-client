@@ -3,5 +3,5 @@ const { setupInput } = require('./input');
 
 
 
-const obj = connect();
-setupInput(obj);
+const conn = connect();
+setupInput(conn);
